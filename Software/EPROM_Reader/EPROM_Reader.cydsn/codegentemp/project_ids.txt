@@ -1,0 +1,6 @@
+C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\EPROM_Reader.cyprj|bb7171ae-90d3-42fa-9111-a14eb56920f5
+C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|30d71415-0663-4c48-a8c2-6ffd98918ff0
+C:\Users\Jesus\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|e2270de4-e9a8-45df-a791-2510dcdd5f86
+C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|9230d0c2-5f4a-4629-aec6-b723dc6bd1eb
+C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|460ee2db-0ad9-45da-b86e-cdfba6a63809
+C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|c1a7cc12-27ed-448a-a830-2a2b0c1636a7

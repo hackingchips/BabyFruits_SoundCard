@@ -1,0 +1,158 @@
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/AddrHigh.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/AddrLow.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CE.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CE_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Clock_1.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CyDMA.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CyFlash.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CyLib.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/DataInput.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/OE.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/OE_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_1.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_10.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_10_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_11.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_11_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_12.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_12_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_13.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_13_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_14.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_14_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_15.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_15_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_16.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_16_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_17.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_17_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_18.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_18_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_19.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_19_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_1_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_2.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_20.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_20_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_2_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_3.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_3_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_4.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_4_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_5.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_5_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_6.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_6_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_7.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_7_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_8.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_8_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_9.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_9_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_BOOT.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/core_cm0.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cyPm.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cypins.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cytypes.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/project.h C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/main.c 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/AddrHigh.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/AddrLow.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CE.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CE_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Clock_1.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CyDMA.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/DataInput.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/OE.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/OE_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_1.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_10.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_10_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_11.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_11_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_12.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_12_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_13.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_13_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_14.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_14_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_15.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_15_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_16.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_16_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_17.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_17_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_18.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_18_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_19.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_19_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_1_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_2.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_20.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_20_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_2_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_3.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_3_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_4.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_4_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_5.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_5_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_6.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_6_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_7.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_7_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_8.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_8_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_9.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/Pin_9_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/Generated_Source/PSoC4/project.h : 
+
+C:/HackingChips/BabyFruits_Sound/EPROM_Reader/EPROM_Reader.cydsn/main.c : 
+

@@ -1,0 +1,468 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:L7805 U?
+U 1 1 5DB70644
+P 3900 3650
+F 0 "U?" H 3900 3892 50  0001 C CNN
+F 1 "L7805" H 3900 3801 50  0000 C CNN
+F 2 "" H 3925 3500 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3900 3600 50  0001 C CNN
+	1    3900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5DB7136E
+P 2800 3900
+F 0 "C?" H 2888 3946 50  0001 L CNN
+F 1 "100uF" H 2888 3900 50  0000 L CNN
+F 2 "" H 2800 3900 50  0001 C CNN
+F 3 "~" H 2800 3900 50  0001 C CNN
+	1    2800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5DB716AE
+P 4450 3900
+F 0 "C?" H 4538 3946 50  0001 L CNN
+F 1 "100nF" H 4538 3900 50  0000 L CNN
+F 2 "" H 4450 3900 50  0001 C CNN
+F 3 "~" H 4450 3900 50  0001 C CNN
+	1    4450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DB71CC3
+P 3350 3900
+F 0 "C?" H 3442 3946 50  0001 L CNN
+F 1 "100nF" H 3442 3900 50  0000 L CNN
+F 2 "" H 3350 3900 50  0001 C CNN
+F 3 "~" H 3350 3900 50  0001 C CNN
+	1    3350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DB722B3
+P 5000 3900
+F 0 "C?" H 5092 3946 50  0001 L CNN
+F 1 "10uF" H 5092 3900 50  0000 L CNN
+F 2 "" H 5000 3900 50  0001 C CNN
+F 3 "~" H 5000 3900 50  0001 C CNN
+	1    5000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DB7277F
+P 8300 4550
+F 0 "R?" H 8368 4596 50  0001 L CNN
+F 1 "10K" H 8368 4550 50  0000 L CNN
+F 2 "" H 8300 4550 50  0001 C CNN
+F 3 "~" H 8300 4550 50  0001 C CNN
+	1    8300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Jack-DC J?
+U 1 1 5DB72B9A
+P 2050 3750
+F 0 "J?" H 2107 4075 50  0001 C CNN
+F 1 "Jack-DC" H 2107 3983 50  0000 C CNN
+F 2 "" H 2100 3710 50  0001 C CNN
+F 3 "~" H 2100 3710 50  0001 C CNN
+	1    2050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5DB75FCE
+P 9350 4500
+F 0 "J?" H 9430 4492 50  0001 L CNN
+F 1 "Conn_01x10" H 9430 4446 50  0000 L CNN
+F 2 "" H 9350 4500 50  0001 C CNN
+F 3 "~" H 9350 4500 50  0001 C CNN
+	1    9350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5DB76678
+P 7500 3400
+F 0 "JP?" H 7500 3664 50  0001 C CNN
+F 1 "Jumper" H 7500 3573 50  0001 C CNN
+F 2 "" H 7500 3400 50  0001 C CNN
+F 3 "~" H 7500 3400 50  0001 C CNN
+	1    7500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB77131
+P 2800 4100
+F 0 "#PWR?" H 2800 3850 50  0001 C CNN
+F 1 "GND" H 2805 3927 50  0000 C CNN
+F 2 "" H 2800 4100 50  0001 C CNN
+F 3 "" H 2800 4100 50  0001 C CNN
+	1    2800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB77484
+P 3350 4100
+F 0 "#PWR?" H 3350 3850 50  0001 C CNN
+F 1 "GND" H 3355 3927 50  0000 C CNN
+F 2 "" H 3350 4100 50  0001 C CNN
+F 3 "" H 3350 4100 50  0001 C CNN
+	1    3350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB7790D
+P 4450 4100
+F 0 "#PWR?" H 4450 3850 50  0001 C CNN
+F 1 "GND" H 4455 3927 50  0000 C CNN
+F 2 "" H 4450 4100 50  0001 C CNN
+F 3 "" H 4450 4100 50  0001 C CNN
+	1    4450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB77E31
+P 5000 4100
+F 0 "#PWR?" H 5000 3850 50  0001 C CNN
+F 1 "GND" H 5005 3927 50  0000 C CNN
+F 2 "" H 5000 4100 50  0001 C CNN
+F 3 "" H 5000 4100 50  0001 C CNN
+	1    5000 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3650 2800 3650
+Wire Wire Line
+	4200 3650 4450 3650
+Wire Wire Line
+	5000 4100 5000 4000
+Wire Wire Line
+	5000 3800 5000 3650
+Connection ~ 5000 3650
+Wire Wire Line
+	5000 3650 5500 3650
+Wire Wire Line
+	4450 3800 4450 3650
+Connection ~ 4450 3650
+Wire Wire Line
+	4450 3650 5000 3650
+Wire Wire Line
+	4450 4100 4450 4000
+Wire Wire Line
+	3350 4100 3350 4000
+Wire Wire Line
+	3350 3800 3350 3650
+Connection ~ 3350 3650
+Wire Wire Line
+	3350 3650 3600 3650
+Wire Wire Line
+	2800 4100 2800 4000
+Wire Wire Line
+	2800 3800 2800 3650
+Connection ~ 2800 3650
+Wire Wire Line
+	2800 3650 3350 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5DB7973D
+P 2350 4100
+F 0 "#PWR?" H 2350 3850 50  0001 C CNN
+F 1 "GND" H 2355 3927 50  0000 C CNN
+F 2 "" H 2350 4100 50  0001 C CNN
+F 3 "" H 2350 4100 50  0001 C CNN
+	1    2350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DB79BB3
+P 5500 3650
+F 0 "#PWR?" H 5500 3500 50  0001 C CNN
+F 1 "+5V" V 5515 3778 50  0000 L CNN
+F 2 "" H 5500 3650 50  0001 C CNN
+F 3 "" H 5500 3650 50  0001 C CNN
+	1    5500 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5DB7A306
+P 5550 3250
+F 0 "#PWR?" H 5550 3100 50  0001 C CNN
+F 1 "+12V" V 5565 3378 50  0000 L CNN
+F 2 "" H 5550 3250 50  0001 C CNN
+F 3 "" H 5550 3250 50  0001 C CNN
+	1    5550 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 3250 2800 3250
+Wire Wire Line
+	2800 3250 2800 3650
+$Comp
+L Device:Jumper JP?
+U 1 1 5DB7B26E
+P 7500 3700
+F 0 "JP?" H 7500 3964 50  0001 C CNN
+F 1 "Jumper" H 7500 3873 50  0001 C CNN
+F 2 "" H 7500 3700 50  0001 C CNN
+F 3 "~" H 7500 3700 50  0001 C CNN
+	1    7500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5DB7B56E
+P 7500 4000
+F 0 "JP?" H 7500 4173 50  0001 C CNN
+F 1 "Jumper" H 7500 4173 50  0001 C CNN
+F 2 "" H 7500 4000 50  0001 C CNN
+F 3 "~" H 7500 4000 50  0001 C CNN
+	1    7500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5DB7B987
+P 7500 4300
+F 0 "JP?" H 7500 4473 50  0001 C CNN
+F 1 "Jumper" H 7500 4473 50  0001 C CNN
+F 2 "" H 7500 4300 50  0001 C CNN
+F 3 "~" H 7500 4300 50  0001 C CNN
+	1    7500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5DB7BD2C
+P 7500 4600
+F 0 "JP?" H 7500 4773 50  0001 C CNN
+F 1 "Jumper" H 7500 4773 50  0001 C CNN
+F 2 "" H 7500 4600 50  0001 C CNN
+F 3 "~" H 7500 4600 50  0001 C CNN
+	1    7500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5DB7C249
+P 7500 4900
+F 0 "JP?" H 7500 5164 50  0001 C CNN
+F 1 "INT" H 7500 5073 50  0000 C CNN
+F 2 "" H 7500 4900 50  0001 C CNN
+F 3 "~" H 7500 4900 50  0001 C CNN
+	1    7500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5DB7C3B3
+P 7500 2500
+F 0 "JP?" H 7500 2673 50  0001 C CNN
+F 1 "Jumper" H 7500 2673 50  0001 C CNN
+F 2 "" H 7500 2500 50  0001 C CNN
+F 3 "~" H 7500 2500 50  0001 C CNN
+	1    7500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB7F9E4
+P 7050 5050
+F 0 "#PWR?" H 7050 4800 50  0001 C CNN
+F 1 "GND" H 7055 4877 50  0000 C CNN
+F 2 "" H 7050 5050 50  0001 C CNN
+F 3 "" H 7050 5050 50  0001 C CNN
+	1    7050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2500 7050 2500
+Wire Wire Line
+	7050 2500 7050 3400
+Wire Wire Line
+	7200 4900 7050 4900
+Connection ~ 7050 4900
+Wire Wire Line
+	7050 4900 7050 5050
+Wire Wire Line
+	7200 4600 7050 4600
+Connection ~ 7050 4600
+Wire Wire Line
+	7050 4600 7050 4900
+Wire Wire Line
+	7200 4300 7050 4300
+Connection ~ 7050 4300
+Wire Wire Line
+	7050 4300 7050 4600
+Wire Wire Line
+	7200 4000 7050 4000
+Connection ~ 7050 4000
+Wire Wire Line
+	7050 4000 7050 4300
+Wire Wire Line
+	7200 3700 7050 3700
+Connection ~ 7050 3700
+Wire Wire Line
+	7050 3700 7050 4000
+Wire Wire Line
+	7200 3400 7050 3400
+Connection ~ 7050 3400
+Wire Wire Line
+	7050 3400 7050 3700
+Text GLabel 7800 4300 2    50   Input ~ 0
+P2.4
+Text GLabel 7800 4000 2    50   Input ~ 0
+P.25
+Text GLabel 7800 3700 2    50   Input ~ 0
+P2.6
+Text GLabel 7800 3400 2    50   Input ~ 0
+P2.7
+Text GLabel 8550 2500 2    50   Input ~ 0
+RESET
+Text GLabel 7800 4600 2    50   Input ~ 0
+P1.3
+Text GLabel 9150 4700 0    50   Input ~ 0
+P2.4
+Text GLabel 9150 4600 0    50   Input ~ 0
+P.25
+Text GLabel 9150 4500 0    50   Input ~ 0
+P2.6
+Text GLabel 9150 4400 0    50   Input ~ 0
+P2.7
+Text GLabel 9150 4800 0    50   Input ~ 0
+P1.3
+Text GLabel 9150 4300 0    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR?
+U 1 1 5DB8CE3F
+P 8700 4300
+F 0 "#PWR?" H 8700 4050 50  0001 C CNN
+F 1 "GND" H 8705 4127 50  0000 C CNN
+F 2 "" H 8700 4300 50  0001 C CNN
+F 3 "" H 8700 4300 50  0001 C CNN
+	1    8700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4300 8700 4200
+Wire Wire Line
+	8700 4200 9150 4200
+$Comp
+L power:+5V #PWR?
+U 1 1 5DB8DB4D
+P 8550 3800
+F 0 "#PWR?" H 8550 3650 50  0001 C CNN
+F 1 "+5V" H 8565 3973 50  0000 C CNN
+F 2 "" H 8550 3800 50  0001 C CNN
+F 3 "" H 8550 3800 50  0001 C CNN
+	1    8550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4900 8300 4900
+Wire Wire Line
+	9150 5000 8550 5000
+Wire Wire Line
+	8550 5000 8550 4200
+Wire Wire Line
+	8300 4900 8300 4650
+Connection ~ 8300 4900
+Wire Wire Line
+	8300 4900 9150 4900
+Wire Wire Line
+	8300 4450 8300 4200
+Wire Wire Line
+	8300 4200 8550 4200
+Connection ~ 8550 4200
+Wire Wire Line
+	8550 4200 8550 3800
+$Comp
+L power:+12V #PWR?
+U 1 1 5DB94F54
+P 8950 3800
+F 0 "#PWR?" H 8950 3650 50  0001 C CNN
+F 1 "+12V" H 8965 3973 50  0000 C CNN
+F 2 "" H 8950 3800 50  0001 C CNN
+F 3 "" H 8950 3800 50  0001 C CNN
+	1    8950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3800 8950 4100
+Wire Wire Line
+	8950 4100 9150 4100
+$Comp
+L Device:CP_Small C?
+U 1 1 5DB9A993
+P 8300 2750
+F 0 "C?" H 8388 2796 50  0001 L CNN
+F 1 "1uF/25" H 8388 2750 50  0000 L CNN
+F 2 "" H 8300 2750 50  0001 C CNN
+F 3 "~" H 8300 2750 50  0001 C CNN
+	1    8300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB9C741
+P 8300 2950
+F 0 "#PWR?" H 8300 2700 50  0001 C CNN
+F 1 "GND" H 8305 2777 50  0000 C CNN
+F 2 "" H 8300 2950 50  0001 C CNN
+F 3 "" H 8300 2950 50  0001 C CNN
+	1    8300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2500 8300 2500
+Wire Wire Line
+	8300 2650 8300 2500
+Connection ~ 8300 2500
+Wire Wire Line
+	8300 2500 8550 2500
+Wire Wire Line
+	8300 2950 8300 2850
+Wire Wire Line
+	2350 4100 2350 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5DBB4A83
+P 3900 4100
+F 0 "#PWR?" H 3900 3850 50  0001 C CNN
+F 1 "GND" H 3905 3927 50  0000 C CNN
+F 2 "" H 3900 4100 50  0001 C CNN
+F 3 "" H 3900 4100 50  0001 C CNN
+	1    3900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4100 3900 3950
+$EndSCHEMATC

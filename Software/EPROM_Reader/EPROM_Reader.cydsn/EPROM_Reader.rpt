@@ -1,0 +1,2696 @@
+Loading plugins phase: Elapsed time ==> 0s.280ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\EPROM_Reader.cyprj -d CY8C4247AZI-M485 -s C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 1s.760ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.060ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  EPROM_Reader.v
+Program  :   C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\EPROM_Reader.cyprj -dcpsoc3 EPROM_Reader.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  EPROM_Reader.v
+Program  :   C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\EPROM_Reader.cyprj -dcpsoc3 EPROM_Reader.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  EPROM_Reader.v
+Program  :   vlogfe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\EPROM_Reader.cyprj -dcpsoc3 -verilog EPROM_Reader.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Fri Oct 18 15:55:39 2019
+
+
+======================================================================
+Compiling:  EPROM_Reader.v
+Program  :   vpp
+Options  :    -yv2 -q10 EPROM_Reader.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Fri Oct 18 15:55:39 2019
+
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'EPROM_Reader.ctl'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  EPROM_Reader.v
+Program  :   tovif
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\EPROM_Reader.cyprj -dcpsoc3 -verilog EPROM_Reader.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Fri Oct 18 15:55:40 2019
+
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\codegentemp\EPROM_Reader.ctl'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\codegentemp\EPROM_Reader.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  EPROM_Reader.v
+Program  :   topld
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\EPROM_Reader.cyprj -dcpsoc3 -verilog EPROM_Reader.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Fri Oct 18 15:55:40 2019
+
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\codegentemp\EPROM_Reader.ctl'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\codegentemp\EPROM_Reader.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	Net_15
+	Net_16
+	Net_17
+	Net_18
+	\UART:Net_1257\
+	\UART:uncfg_rx_irq\
+	\UART:Net_1099\
+	\UART:Net_1258\
+	Net_39
+	Net_48
+	Net_49
+	Net_50
+	Net_51
+	Net_52
+	Net_53
+	Net_54
+	Net_56
+	Net_59
+
+
+Deleted 18 User equations/components.
+Deleted 0 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \AddrLow:rst\ to \AddrLow:clk\
+Aliasing \AddrHigh:clk\ to \AddrLow:clk\
+Aliasing \AddrHigh:rst\ to \AddrLow:clk\
+Aliasing zero to \AddrLow:clk\
+Aliasing one to tmpOE__CE_net_0
+Aliasing tmpOE__OE_net_0 to tmpOE__CE_net_0
+Aliasing \UART:select_s_wire\ to \AddrLow:clk\
+Aliasing \UART:sclk_s_wire\ to \AddrLow:clk\
+Aliasing \UART:mosi_s_wire\ to \AddrLow:clk\
+Aliasing \UART:miso_m_wire\ to \AddrLow:clk\
+Aliasing \UART:tmpOE__tx_net_0\ to tmpOE__CE_net_0
+Aliasing \UART:tmpOE__rx_net_0\ to tmpOE__CE_net_0
+Aliasing \UART:cts_wire\ to \AddrLow:clk\
+Aliasing tmpOE__Pin_1_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_2_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_3_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_4_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_5_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_6_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_7_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_8_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_9_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_10_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_11_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_12_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_13_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_14_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_15_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_16_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_17_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_18_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_19_net_0 to tmpOE__CE_net_0
+Aliasing tmpOE__Pin_20_net_0 to tmpOE__CE_net_0
+Removing Lhs of wire \AddrLow:rst\[1] = \AddrLow:clk\[0]
+Removing Rhs of wire Net_60[2] = \AddrLow:control_out_0\[3]
+Removing Rhs of wire Net_60[2] = \AddrLow:control_0\[26]
+Removing Rhs of wire Net_61[4] = \AddrLow:control_out_1\[5]
+Removing Rhs of wire Net_61[4] = \AddrLow:control_1\[25]
+Removing Rhs of wire Net_62[6] = \AddrLow:control_out_2\[7]
+Removing Rhs of wire Net_62[6] = \AddrLow:control_2\[24]
+Removing Rhs of wire Net_63[8] = \AddrLow:control_out_3\[9]
+Removing Rhs of wire Net_63[8] = \AddrLow:control_3\[23]
+Removing Rhs of wire Net_64[10] = \AddrLow:control_out_4\[11]
+Removing Rhs of wire Net_64[10] = \AddrLow:control_4\[22]
+Removing Rhs of wire Net_65[12] = \AddrLow:control_out_5\[13]
+Removing Rhs of wire Net_65[12] = \AddrLow:control_5\[21]
+Removing Rhs of wire Net_66[14] = \AddrLow:control_out_6\[15]
+Removing Rhs of wire Net_66[14] = \AddrLow:control_6\[20]
+Removing Rhs of wire Net_67[16] = \AddrLow:control_out_7\[17]
+Removing Rhs of wire Net_67[16] = \AddrLow:control_7\[19]
+Removing Lhs of wire \AddrHigh:clk\[27] = \AddrLow:clk\[0]
+Removing Lhs of wire \AddrHigh:rst\[28] = \AddrLow:clk\[0]
+Removing Rhs of wire Net_68[29] = \AddrHigh:control_out_0\[30]
+Removing Rhs of wire Net_68[29] = \AddrHigh:control_0\[53]
+Removing Rhs of wire Net_69[31] = \AddrHigh:control_out_1\[32]
+Removing Rhs of wire Net_69[31] = \AddrHigh:control_1\[52]
+Removing Rhs of wire Net_70[33] = \AddrHigh:control_out_2\[34]
+Removing Rhs of wire Net_70[33] = \AddrHigh:control_2\[51]
+Removing Rhs of wire Net_71[35] = \AddrHigh:control_out_3\[36]
+Removing Rhs of wire Net_71[35] = \AddrHigh:control_3\[50]
+Removing Lhs of wire \DataInput:status_0\[54] = Net_72[55]
+Removing Lhs of wire \DataInput:status_1\[56] = Net_73[57]
+Removing Lhs of wire \DataInput:status_2\[58] = Net_74[59]
+Removing Lhs of wire \DataInput:status_3\[60] = Net_75[61]
+Removing Lhs of wire \DataInput:status_4\[62] = Net_76[63]
+Removing Lhs of wire \DataInput:status_5\[64] = Net_77[65]
+Removing Lhs of wire \DataInput:status_6\[66] = Net_78[67]
+Removing Lhs of wire \DataInput:status_7\[68] = Net_79[69]
+Removing Rhs of wire zero[71] = \AddrLow:clk\[0]
+Removing Lhs of wire one[78] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__OE_net_0[81] = tmpOE__CE_net_0[74]
+Removing Lhs of wire \UART:select_s_wire\[89] = zero[71]
+Removing Rhs of wire \UART:rx_wire\[90] = \UART:Net_1268\[91]
+Removing Lhs of wire \UART:Net_1170\[94] = \UART:Net_847\[88]
+Removing Lhs of wire \UART:sclk_s_wire\[95] = zero[71]
+Removing Lhs of wire \UART:mosi_s_wire\[96] = zero[71]
+Removing Lhs of wire \UART:miso_m_wire\[97] = zero[71]
+Removing Lhs of wire \UART:tmpOE__tx_net_0\[99] = tmpOE__CE_net_0[74]
+Removing Lhs of wire \UART:tmpOE__rx_net_0\[108] = tmpOE__CE_net_0[74]
+Removing Lhs of wire \UART:cts_wire\[112] = zero[71]
+Removing Lhs of wire tmpOE__Pin_1_net_0[139] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_2_net_0[145] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_3_net_0[151] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_4_net_0[157] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_5_net_0[163] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_6_net_0[169] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_7_net_0[175] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_8_net_0[181] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_9_net_0[187] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_10_net_0[193] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_11_net_0[199] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_12_net_0[205] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_13_net_0[211] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_14_net_0[216] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_15_net_0[221] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_16_net_0[226] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_17_net_0[231] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_18_net_0[236] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_19_net_0[241] = tmpOE__CE_net_0[74]
+Removing Lhs of wire tmpOE__Pin_20_net_0[246] = tmpOE__CE_net_0[74]
+
+------------------------------------------------------
+Aliased 0 equations, 67 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp
+Warp Program   : C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\EPROM_Reader.cyprj -dcpsoc3 EPROM_Reader.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 0s.927ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V4.2.0.641, Family: PSoC3, Started at: Friday, 18 October 2019 15:55:40
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\HackingChips\BabyFruits_Sound\EPROM_Reader\EPROM_Reader.cydsn\EPROM_Reader.cyprj -d CY8C4247AZI-M485 EPROM_Reader.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.020ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech Mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Alignment-Only Clock: Automatic-assigning  clock 'Clock_1'. Fanout=0
+    Fixed Function Clock 2: Automatic-assigning  clock 'UART_SCBCLK'. Signal=\UART:Net_847_ff2\
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+</CYPRESSTAG>
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = CE(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => CE(0)__PA ,
+            pad => CE(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = OE(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => OE(0)__PA ,
+            pad => OE(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = \UART:tx(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \UART:tx(0)\__PA ,
+            pin_input => \UART:tx_wire\ ,
+            pad => \UART:tx(0)_PAD\ );
+        Properties:
+        {
+        }
+
+    Pin : Name = \UART:rx(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \UART:rx(0)\__PA ,
+            fb => \UART:rx_wire\ ,
+            pad => \UART:rx(0)_PAD\ );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_1(0)__PA ,
+            pin_input => Net_60 ,
+            pad => Pin_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_2(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_2(0)__PA ,
+            pin_input => Net_61 ,
+            pad => Pin_2(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_3(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_3(0)__PA ,
+            pin_input => Net_62 ,
+            pad => Pin_3(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_4(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_4(0)__PA ,
+            pin_input => Net_63 ,
+            pad => Pin_4(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_5(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_5(0)__PA ,
+            pin_input => Net_64 ,
+            pad => Pin_5(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_6(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_6(0)__PA ,
+            pin_input => Net_65 ,
+            pad => Pin_6(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_7(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_7(0)__PA ,
+            pin_input => Net_66 ,
+            pad => Pin_7(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_8(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_8(0)__PA ,
+            pin_input => Net_67 ,
+            pad => Pin_8(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_9(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_9(0)__PA ,
+            pin_input => Net_68 ,
+            pad => Pin_9(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_10(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_10(0)__PA ,
+            pin_input => Net_69 ,
+            pad => Pin_10(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_11(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_11(0)__PA ,
+            pin_input => Net_70 ,
+            pad => Pin_11(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_12(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_12(0)__PA ,
+            pin_input => Net_71 ,
+            pad => Pin_12(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_13(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_13(0)__PA ,
+            fb => Net_72 ,
+            pad => Pin_13(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_14(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_14(0)__PA ,
+            fb => Net_73 ,
+            pad => Pin_14(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_15(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_15(0)__PA ,
+            fb => Net_74 ,
+            pad => Pin_15(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_16(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_16(0)__PA ,
+            fb => Net_75 ,
+            pad => Pin_16(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_17(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_17(0)__PA ,
+            fb => Net_76 ,
+            pad => Pin_17(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_18(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_18(0)__PA ,
+            fb => Net_77 ,
+            pad => Pin_18(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_19(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_19(0)__PA ,
+            fb => Net_78 ,
+            pad => Pin_19(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_20(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_20(0)__PA ,
+            fb => Net_79 ,
+            pad => Pin_20(0)_PAD );
+        Properties:
+        {
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+
+    ------------------------------------------------------------
+    Status register listing
+    ------------------------------------------------------------
+
+    statuscell: Name =\DataInput:sts:sts_reg\
+        PORT MAP (
+            status_7 => Net_79 ,
+            status_6 => Net_78 ,
+            status_5 => Net_77 ,
+            status_4 => Net_76 ,
+            status_3 => Net_75 ,
+            status_2 => Net_74 ,
+            status_1 => Net_73 ,
+            status_0 => Net_72 );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_md_select = "00000000"
+        }
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+
+    ------------------------------------------------------------
+    Control register listing
+    ------------------------------------------------------------
+
+    controlcell: Name =\AddrLow:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => Net_67 ,
+            control_6 => Net_66 ,
+            control_5 => Net_65 ,
+            control_4 => Net_64 ,
+            control_3 => Net_63 ,
+            control_2 => Net_62 ,
+            control_1 => Net_61 ,
+            control_0 => Net_60 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+
+    controlcell: Name =\AddrHigh:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => \AddrHigh:control_7\ ,
+            control_6 => \AddrHigh:control_6\ ,
+            control_5 => \AddrHigh:control_5\ ,
+            control_4 => \AddrHigh:control_4\ ,
+            control_3 => Net_71 ,
+            control_2 => Net_70 ,
+            control_1 => Net_69 ,
+            control_0 => Net_68 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital Clocks                :    0 :    4 :    4 :  0.00 %
+Interrupts                    :    0 :   32 :   32 :  0.00 %
+IO                            :   26 :   25 :   51 : 50.98 %
+Segment LCD                   :    0 :    1 :    1 :  0.00 %
+CapSense                      :    0 :    2 :    2 :  0.00 %
+Die Temp                      :    0 :    1 :    1 :  0.00 %
+CAN 2.0b                      :    0 :    2 :    2 :  0.00 %
+Serial Communication (SCB)    :    1 :    3 :    4 : 25.00 %
+DMA Channels                  :    0 :    8 :    8 :  0.00 %
+Timer/Counter/PWM             :    0 :    8 :    8 :  0.00 %
+UDB                           :      :      :      :        
+  Macrocells                  :    0 :   32 :   32 :  0.00 %
+  Unique P-terms              :    0 :   64 :   64 :  0.00 %
+  Total P-terms               :    0 :      :      :        
+  Datapath Cells              :    0 :    4 :    4 :  0.00 %
+  Status Cells                :    1 :    3 :    4 : 25.00 %
+    Status Registers          :    1 :      :      :        
+  Control Cells               :    2 :    2 :    4 : 50.00 %
+    Control Registers         :    2 :      :      :        
+Comparator/Opamp              :    0 :    4 :    4 :  0.00 %
+LP Comparator                 :    0 :    2 :    2 :  0.00 %
+SAR ADC                       :    0 :    1 :    1 :  0.00 %
+DAC                           :      :      :      :        
+  7-bit IDAC                  :    0 :    2 :    2 :  0.00 %
+  8-bit IDAC                  :    0 :    2 :    2 :  0.00 %
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.060ms
+Tech Mapping phase: Elapsed time ==> 0s.100ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+<CYPRESSTAG name="FFB & IO Pre Placement">
+<CYPRESSTAG name="Placement" icon="FILE_RPT_PLACEMENT">
+
+Cell                                : Block                              
+=========================================================================
+CE(0)                               : [IOP=(4)][IoId=(0)]                
+OE(0)                               : [IOP=(4)][IoId=(1)]                
+\UART:tx(0)\                        : [IOP=(7)][IoId=(1)]                
+\UART:rx(0)\                        : [IOP=(7)][IoId=(0)]                
+Pin_1(0)                            : [IOP=(2)][IoId=(0)]                
+Pin_2(0)                            : [IOP=(2)][IoId=(1)]                
+Pin_3(0)                            : [IOP=(2)][IoId=(2)]                
+Pin_4(0)                            : [IOP=(2)][IoId=(3)]                
+Pin_5(0)                            : [IOP=(2)][IoId=(4)]                
+Pin_6(0)                            : [IOP=(2)][IoId=(5)]                
+Pin_7(0)                            : [IOP=(2)][IoId=(6)]                
+Pin_8(0)                            : [IOP=(2)][IoId=(7)]                
+Pin_9(0)                            : [IOP=(1)][IoId=(0)]                
+Pin_10(0)                           : [IOP=(1)][IoId=(1)]                
+Pin_11(0)                           : [IOP=(1)][IoId=(2)]                
+Pin_12(0)                           : [IOP=(1)][IoId=(3)]                
+Pin_13(0)                           : [IOP=(0)][IoId=(0)]                
+Pin_14(0)                           : [IOP=(0)][IoId=(1)]                
+Pin_15(0)                           : [IOP=(0)][IoId=(2)]                
+Pin_16(0)                           : [IOP=(0)][IoId=(3)]                
+Pin_17(0)                           : [IOP=(3)][IoId=(0)]                
+Pin_18(0)                           : [IOP=(3)][IoId=(1)]                
+Pin_19(0)                           : [IOP=(3)][IoId=(4)]                
+Pin_20(0)                           : [IOP=(3)][IoId=(5)]                
+ClockGenBlock                       : CLK_GEN_[FFB(CLK_GEN,0)]           
+\UART:SCB\                          : SCB_[FFB(SCB,3)]                   
+
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Real Analog Placement">
+Elapsed time ==> 0.4785737s
+</CYPRESSTAG>
+Analog Placement phase: Elapsed time ==> 0s.930ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+<CYPRESSTAG name="Analog Routing">
+Route success=True, Iterations=1 Elapsed=0.0010154 secs
+</CYPRESSTAG>
+Analog Routing phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Code Generation">
+============ Analog Final Answer Routes ============
+Dump of CyAnalogRoutingResultsDB
+Map of net to items {
+}
+Map of item to net {
+}
+Mux Info {
+}
+Analog Code Generation phase: Elapsed time ==> 0s.020ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="Detailed placement messages">
+I2659: No Constrained paths were found. The placer will run in non-timing driven mode.
+I2076: Total run-time: 0.4 sec.
+
+</CYPRESSTAG>
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary">
+No PLDs were packed.
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.020ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          2 :       0.00 :       0.00
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [UDB=(0,0)] contents:
+statuscell: Name =\DataInput:sts:sts_reg\
+    PORT MAP (
+        status_7 => Net_79 ,
+        status_6 => Net_78 ,
+        status_5 => Net_77 ,
+        status_4 => Net_76 ,
+        status_3 => Net_75 ,
+        status_2 => Net_74 ,
+        status_1 => Net_73 ,
+        status_0 => Net_72 );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_md_select = "00000000"
+    }
+    Clock Enable: True
+
+controlcell: Name =\AddrLow:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => Net_67 ,
+        control_6 => Net_66 ,
+        control_5 => Net_65 ,
+        control_4 => Net_64 ,
+        control_3 => Net_63 ,
+        control_2 => Net_62 ,
+        control_1 => Net_61 ,
+        control_0 => Net_60 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(0,1)] is empty.
+UDB [UDB=(1,0)] contents:
+controlcell: Name =\AddrHigh:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \AddrHigh:control_7\ ,
+        control_6 => \AddrHigh:control_6\ ,
+        control_5 => \AddrHigh:control_5\ ,
+        control_4 => \AddrHigh:control_4\ ,
+        control_3 => Net_71 ,
+        control_2 => Net_70 ,
+        control_1 => Net_69 ,
+        control_0 => Net_68 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(1,1)] is empty.
+Intr container @ [IntrContainer=(0)]: empty
+Drq container @ [DrqContainer=(0)]: empty
+Port 0 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = Pin_13(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_13(0)__PA ,
+        fb => Net_72 ,
+        pad => Pin_13(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = Pin_14(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_14(0)__PA ,
+        fb => Net_73 ,
+        pad => Pin_14(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = Pin_15(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_15(0)__PA ,
+        fb => Net_74 ,
+        pad => Pin_15(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = Pin_16(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_16(0)__PA ,
+        fb => Net_75 ,
+        pad => Pin_16(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 1 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = Pin_9(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_9(0)__PA ,
+        pin_input => Net_68 ,
+        pad => Pin_9(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = Pin_10(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_10(0)__PA ,
+        pin_input => Net_69 ,
+        pad => Pin_10(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = Pin_11(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_11(0)__PA ,
+        pin_input => Net_70 ,
+        pad => Pin_11(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = Pin_12(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_12(0)__PA ,
+        pin_input => Net_71 ,
+        pad => Pin_12(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 2 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = Pin_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_1(0)__PA ,
+        pin_input => Net_60 ,
+        pad => Pin_1(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = Pin_2(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_2(0)__PA ,
+        pin_input => Net_61 ,
+        pad => Pin_2(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = Pin_3(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_3(0)__PA ,
+        pin_input => Net_62 ,
+        pad => Pin_3(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = Pin_4(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_4(0)__PA ,
+        pin_input => Net_63 ,
+        pad => Pin_4(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=4]: 
+Pin : Name = Pin_5(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_5(0)__PA ,
+        pin_input => Net_64 ,
+        pad => Pin_5(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=5]: 
+Pin : Name = Pin_6(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_6(0)__PA ,
+        pin_input => Net_65 ,
+        pad => Pin_6(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=6]: 
+Pin : Name = Pin_7(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_7(0)__PA ,
+        pin_input => Net_66 ,
+        pad => Pin_7(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=7]: 
+Pin : Name = Pin_8(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_8(0)__PA ,
+        pin_input => Net_67 ,
+        pad => Pin_8(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 3 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = Pin_17(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_17(0)__PA ,
+        fb => Net_76 ,
+        pad => Pin_17(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = Pin_18(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_18(0)__PA ,
+        fb => Net_77 ,
+        pad => Pin_18(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=4]: 
+Pin : Name = Pin_19(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_19(0)__PA ,
+        fb => Net_78 ,
+        pad => Pin_19(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=5]: 
+Pin : Name = Pin_20(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_20(0)__PA ,
+        fb => Net_79 ,
+        pad => Pin_20(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 4 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = CE(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => CE(0)__PA ,
+        pad => CE(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = OE(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => OE(0)__PA ,
+        pad => OE(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 5 contains the following IO cells:
+Port 6 contains the following IO cells:
+Port 7 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = \UART:rx(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \UART:rx(0)\__PA ,
+        fb => \UART:rx_wire\ ,
+        pad => \UART:rx(0)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = \UART:tx(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \UART:tx(0)\__PA ,
+        pin_input => \UART:tx_wire\ ,
+        pad => \UART:tx(0)_PAD\ );
+    Properties:
+    {
+    }
+
+ARM group 0: empty
+CAN group 0: empty
+Clock group 0: 
+    Clock Block @ F(Clock,0): 
+    m0s8clockblockcell: Name =ClockBlock
+        PORT MAP (
+            hfclk => ClockBlock_HFClk ,
+            imo => ClockBlock_IMO ,
+            ext => ClockBlock_ExtClk ,
+            sysclk => ClockBlock_SysClk ,
+            ilo => ClockBlock_ILO ,
+            lfclk => ClockBlock_LFClk ,
+            wco => ClockBlock_WCO ,
+            dsi_in_0 => ClockBlock_Routed1 ,
+            ff_div_2 => \UART:Net_847_ff2\ );
+        Properties:
+        {
+        }
+LCD group 0: empty
+PICU group 0: empty
+LPCOMP group 0: empty
+SCB group 0: 
+    SCB Block @ F(SCB,3): 
+    m0s8scbcell: Name =\UART:SCB\
+        PORT MAP (
+            clock => \UART:Net_847_ff2\ ,
+            interrupt => Net_40 ,
+            uart_rx => \UART:rx_wire\ ,
+            uart_tx => \UART:tx_wire\ ,
+            uart_rts => \UART:rts_wire\ ,
+            mosi_m => \UART:mosi_m_wire\ ,
+            select_m_3 => \UART:select_m_wire_3\ ,
+            select_m_2 => \UART:select_m_wire_2\ ,
+            select_m_1 => \UART:select_m_wire_1\ ,
+            select_m_0 => \UART:select_m_wire_0\ ,
+            sclk_m => \UART:sclk_m_wire\ ,
+            miso_s => \UART:miso_s_wire\ ,
+            tr_tx_req => Net_43 ,
+            tr_rx_req => Net_42 );
+        Properties:
+        {
+            cy_registers = ""
+            scb_mode = 2
+        }
+CSD group 0: empty
+CSIDAC8 group 0: empty
+CSIDAC7 group 0: empty
+TCPWM group 0: empty
+OA group 0: empty
+TEMP group 0: empty
+SARADC group 0: empty
+CLK_GEN group 0: 
+    M0S8 Clock Gen Block @ F(CLK_GEN,0): 
+    m0s8clockgenblockcell: Name =ClockGenBlock
+        PORT MAP (
+             );
+        Properties:
+        {
+        }
+LPCOMPBLOCK group 0: empty
+PASSBLOCK group 0: empty
+WCO group 0: empty
+SRSS group 0: empty
+CPUSS group 0: empty
+IOSS group 0: empty
+EXCO group 0: empty
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |              | 
+Port | Pin | Fixed |      Type |       Drive Mode |         Name | Connections
+-----+-----+-------+-----------+------------------+--------------+-------------------
+   0 |   0 |     * |      NONE |     HI_Z_DIGITAL |    Pin_13(0) | FB(Net_72)
+     |   1 |     * |      NONE |     HI_Z_DIGITAL |    Pin_14(0) | FB(Net_73)
+     |   2 |     * |      NONE |     HI_Z_DIGITAL |    Pin_15(0) | FB(Net_74)
+     |   3 |     * |      NONE |     HI_Z_DIGITAL |    Pin_16(0) | FB(Net_75)
+-----+-----+-------+-----------+------------------+--------------+-------------------
+   1 |   0 |     * |      NONE |         CMOS_OUT |     Pin_9(0) | In(Net_68)
+     |   1 |     * |      NONE |         CMOS_OUT |    Pin_10(0) | In(Net_69)
+     |   2 |     * |      NONE |         CMOS_OUT |    Pin_11(0) | In(Net_70)
+     |   3 |     * |      NONE |         CMOS_OUT |    Pin_12(0) | In(Net_71)
+-----+-----+-------+-----------+------------------+--------------+-------------------
+   2 |   0 |     * |      NONE |         CMOS_OUT |     Pin_1(0) | In(Net_60)
+     |   1 |     * |      NONE |         CMOS_OUT |     Pin_2(0) | In(Net_61)
+     |   2 |     * |      NONE |         CMOS_OUT |     Pin_3(0) | In(Net_62)
+     |   3 |     * |      NONE |         CMOS_OUT |     Pin_4(0) | In(Net_63)
+     |   4 |     * |      NONE |         CMOS_OUT |     Pin_5(0) | In(Net_64)
+     |   5 |     * |      NONE |         CMOS_OUT |     Pin_6(0) | In(Net_65)
+     |   6 |     * |      NONE |         CMOS_OUT |     Pin_7(0) | In(Net_66)
+     |   7 |     * |      NONE |         CMOS_OUT |     Pin_8(0) | In(Net_67)
+-----+-----+-------+-----------+------------------+--------------+-------------------
+   3 |   0 |     * |      NONE |     HI_Z_DIGITAL |    Pin_17(0) | FB(Net_76)
+     |   1 |     * |      NONE |     HI_Z_DIGITAL |    Pin_18(0) | FB(Net_77)
+     |   4 |     * |      NONE |     HI_Z_DIGITAL |    Pin_19(0) | FB(Net_78)
+     |   5 |     * |      NONE |     HI_Z_DIGITAL |    Pin_20(0) | FB(Net_79)
+-----+-----+-------+-----------+------------------+--------------+-------------------
+   4 |   0 |     * |      NONE |         CMOS_OUT |        CE(0) | 
+     |   1 |     * |      NONE |         CMOS_OUT |        OE(0) | 
+-----+-----+-------+-----------+------------------+--------------+-------------------
+   7 |   0 |     * |      NONE |     HI_Z_DIGITAL | \UART:rx(0)\ | FB(\UART:rx_wire\)
+     |   1 |     * |      NONE |         CMOS_OUT | \UART:tx(0)\ | In(\UART:tx_wire\)
+-------------------------------------------------------------------------------------
+</CYPRESSTAG>
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.030ms
+Digital Placement phase: Elapsed time ==> 0s.730ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+"C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc4/4/route_arch-rrg.cydata" --vh2-path "EPROM_Reader_r.vh2" --pcf-path "EPROM_Reader.pco" --des-name "EPROM_Reader" --dsf-path "EPROM_Reader.dsf" --sdc-path "EPROM_Reader.sdc" --lib-path "EPROM_Reader_r.lib"
+Routing successful.
+Digital Routing phase: Elapsed time ==> 1s.160ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Generation">
+Bitstream Generation phase: Elapsed time ==> 0s.320ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Verification">
+Bitstream Verification phase: Elapsed time ==> 0s.030ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in EPROM_Reader_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.280ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.210ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.220ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 4s.050ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 4s.050ms
+API generation phase: Elapsed time ==> 3s.092ms
+Dependency generation phase: Elapsed time ==> 0s.060ms
+Cleanup phase: Elapsed time ==> 0s.000ms

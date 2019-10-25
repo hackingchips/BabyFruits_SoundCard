@@ -1,0 +1,912 @@
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"DataInput.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.DataInput_Read,"ax",%progbits
+  20              		.align	2
+  21              		.global	DataInput_Read
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	DataInput_Read, %function
+  25              	DataInput_Read:
+  26              	.LFB1:
+  27              		.file 1 "Generated_Source\\PSoC4\\DataInput.c"
+   1:Generated_Source\PSoC4/DataInput.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/DataInput.c **** * File Name: DataInput.c  
+   3:Generated_Source\PSoC4/DataInput.c **** * Version 1.90
+   4:Generated_Source\PSoC4/DataInput.c **** *
+   5:Generated_Source\PSoC4/DataInput.c **** * Description:
+   6:Generated_Source\PSoC4/DataInput.c **** *  This file contains API to enable firmware to read the value of a Status 
+   7:Generated_Source\PSoC4/DataInput.c **** *  Register.
+   8:Generated_Source\PSoC4/DataInput.c **** *
+   9:Generated_Source\PSoC4/DataInput.c **** * Note:
+  10:Generated_Source\PSoC4/DataInput.c **** *
+  11:Generated_Source\PSoC4/DataInput.c **** ********************************************************************************
+  12:Generated_Source\PSoC4/DataInput.c **** * Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
+  13:Generated_Source\PSoC4/DataInput.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  14:Generated_Source\PSoC4/DataInput.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  15:Generated_Source\PSoC4/DataInput.c **** * the software package with which this file was provided.
+  16:Generated_Source\PSoC4/DataInput.c **** *******************************************************************************/
+  17:Generated_Source\PSoC4/DataInput.c **** 
+  18:Generated_Source\PSoC4/DataInput.c **** #include "DataInput.h"
+  19:Generated_Source\PSoC4/DataInput.c **** 
+  20:Generated_Source\PSoC4/DataInput.c **** #if !defined(DataInput_sts_sts_reg__REMOVED) /* Check for removal by optimization */
+  21:Generated_Source\PSoC4/DataInput.c **** 
+  22:Generated_Source\PSoC4/DataInput.c **** 
+  23:Generated_Source\PSoC4/DataInput.c **** /*******************************************************************************
+  24:Generated_Source\PSoC4/DataInput.c **** * Function Name: DataInput_Read
+  25:Generated_Source\PSoC4/DataInput.c **** ********************************************************************************
+  26:Generated_Source\PSoC4/DataInput.c **** *
+  27:Generated_Source\PSoC4/DataInput.c **** * Summary:
+  28:Generated_Source\PSoC4/DataInput.c **** *  Reads the current value assigned to the Status Register.
+  29:Generated_Source\PSoC4/DataInput.c **** *
+  30:Generated_Source\PSoC4/DataInput.c **** * Parameters:
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 2
+
+
+  31:Generated_Source\PSoC4/DataInput.c **** *  None.
+  32:Generated_Source\PSoC4/DataInput.c **** *
+  33:Generated_Source\PSoC4/DataInput.c **** * Return:
+  34:Generated_Source\PSoC4/DataInput.c **** *  The current value in the Status Register.
+  35:Generated_Source\PSoC4/DataInput.c **** *
+  36:Generated_Source\PSoC4/DataInput.c **** *******************************************************************************/
+  37:Generated_Source\PSoC4/DataInput.c **** uint8 DataInput_Read(void) 
+  38:Generated_Source\PSoC4/DataInput.c **** { 
+  28              		.loc 1 38 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  39:Generated_Source\PSoC4/DataInput.c ****     return DataInput_Status;
+  33              		.loc 1 39 0
+  34 0000 014B     		ldr	r3, .L2
+  35 0002 1878     		ldrb	r0, [r3]
+  36 0004 C0B2     		uxtb	r0, r0
+  40:Generated_Source\PSoC4/DataInput.c **** }
+  37              		.loc 1 40 0
+  38              		@ sp needed
+  39 0006 7047     		bx	lr
+  40              	.L3:
+  41              		.align	2
+  42              	.L2:
+  43 0008 63000F40 		.word	1074724963
+  44              		.cfi_endproc
+  45              	.LFE1:
+  46              		.size	DataInput_Read, .-DataInput_Read
+  47              		.section	.text.DataInput_InterruptEnable,"ax",%progbits
+  48              		.align	2
+  49              		.global	DataInput_InterruptEnable
+  50              		.code	16
+  51              		.thumb_func
+  52              		.type	DataInput_InterruptEnable, %function
+  53              	DataInput_InterruptEnable:
+  54              	.LFB2:
+  41:Generated_Source\PSoC4/DataInput.c **** 
+  42:Generated_Source\PSoC4/DataInput.c **** 
+  43:Generated_Source\PSoC4/DataInput.c **** /*******************************************************************************
+  44:Generated_Source\PSoC4/DataInput.c **** * Function Name: DataInput_InterruptEnable
+  45:Generated_Source\PSoC4/DataInput.c **** ********************************************************************************
+  46:Generated_Source\PSoC4/DataInput.c **** *
+  47:Generated_Source\PSoC4/DataInput.c **** * Summary:
+  48:Generated_Source\PSoC4/DataInput.c **** *  Enables the Status Register interrupt.
+  49:Generated_Source\PSoC4/DataInput.c **** *
+  50:Generated_Source\PSoC4/DataInput.c **** * Parameters:
+  51:Generated_Source\PSoC4/DataInput.c **** *  None.
+  52:Generated_Source\PSoC4/DataInput.c **** *
+  53:Generated_Source\PSoC4/DataInput.c **** * Return:
+  54:Generated_Source\PSoC4/DataInput.c **** *  None.
+  55:Generated_Source\PSoC4/DataInput.c **** *
+  56:Generated_Source\PSoC4/DataInput.c **** *******************************************************************************/
+  57:Generated_Source\PSoC4/DataInput.c **** void DataInput_InterruptEnable(void) 
+  58:Generated_Source\PSoC4/DataInput.c **** {
+  55              		.loc 1 58 0
+  56              		.cfi_startproc
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 3
+
+
+  57              		@ args = 0, pretend = 0, frame = 0
+  58              		@ frame_needed = 0, uses_anonymous_args = 0
+  59 0000 10B5     		push	{r4, lr}
+  60              		.cfi_def_cfa_offset 8
+  61              		.cfi_offset 4, -8
+  62              		.cfi_offset 14, -4
+  59:Generated_Source\PSoC4/DataInput.c ****     uint8 interruptState;
+  60:Generated_Source\PSoC4/DataInput.c ****     interruptState = CyEnterCriticalSection();
+  63              		.loc 1 60 0
+  64 0002 FFF7FEFF 		bl	CyEnterCriticalSection
+  65              	.LVL0:
+  61:Generated_Source\PSoC4/DataInput.c ****     DataInput_Status_Aux_Ctrl |= DataInput_STATUS_INTR_ENBL;
+  66              		.loc 1 61 0
+  67 0006 044A     		ldr	r2, .L5
+  68 0008 1178     		ldrb	r1, [r2]
+  69 000a 1023     		movs	r3, #16
+  70 000c 0B43     		orrs	r3, r1
+  71 000e DBB2     		uxtb	r3, r3
+  72 0010 1370     		strb	r3, [r2]
+  62:Generated_Source\PSoC4/DataInput.c ****     CyExitCriticalSection(interruptState);
+  73              		.loc 1 62 0
+  74 0012 FFF7FEFF 		bl	CyExitCriticalSection
+  75              	.LVL1:
+  63:Generated_Source\PSoC4/DataInput.c **** }
+  76              		.loc 1 63 0
+  77              		@ sp needed
+  78 0016 10BD     		pop	{r4, pc}
+  79              	.L6:
+  80              		.align	2
+  81              	.L5:
+  82 0018 93000F40 		.word	1074725011
+  83              		.cfi_endproc
+  84              	.LFE2:
+  85              		.size	DataInput_InterruptEnable, .-DataInput_InterruptEnable
+  86              		.section	.text.DataInput_InterruptDisable,"ax",%progbits
+  87              		.align	2
+  88              		.global	DataInput_InterruptDisable
+  89              		.code	16
+  90              		.thumb_func
+  91              		.type	DataInput_InterruptDisable, %function
+  92              	DataInput_InterruptDisable:
+  93              	.LFB3:
+  64:Generated_Source\PSoC4/DataInput.c **** 
+  65:Generated_Source\PSoC4/DataInput.c **** 
+  66:Generated_Source\PSoC4/DataInput.c **** /*******************************************************************************
+  67:Generated_Source\PSoC4/DataInput.c **** * Function Name: DataInput_InterruptDisable
+  68:Generated_Source\PSoC4/DataInput.c **** ********************************************************************************
+  69:Generated_Source\PSoC4/DataInput.c **** *
+  70:Generated_Source\PSoC4/DataInput.c **** * Summary:
+  71:Generated_Source\PSoC4/DataInput.c **** *  Disables the Status Register interrupt.
+  72:Generated_Source\PSoC4/DataInput.c **** *
+  73:Generated_Source\PSoC4/DataInput.c **** * Parameters:
+  74:Generated_Source\PSoC4/DataInput.c **** *  None.
+  75:Generated_Source\PSoC4/DataInput.c **** *
+  76:Generated_Source\PSoC4/DataInput.c **** * Return:
+  77:Generated_Source\PSoC4/DataInput.c **** *  None.
+  78:Generated_Source\PSoC4/DataInput.c **** *
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 4
+
+
+  79:Generated_Source\PSoC4/DataInput.c **** *******************************************************************************/
+  80:Generated_Source\PSoC4/DataInput.c **** void DataInput_InterruptDisable(void) 
+  81:Generated_Source\PSoC4/DataInput.c **** {
+  94              		.loc 1 81 0
+  95              		.cfi_startproc
+  96              		@ args = 0, pretend = 0, frame = 0
+  97              		@ frame_needed = 0, uses_anonymous_args = 0
+  98 0000 10B5     		push	{r4, lr}
+  99              		.cfi_def_cfa_offset 8
+ 100              		.cfi_offset 4, -8
+ 101              		.cfi_offset 14, -4
+  82:Generated_Source\PSoC4/DataInput.c ****     uint8 interruptState;
+  83:Generated_Source\PSoC4/DataInput.c ****     interruptState = CyEnterCriticalSection();
+ 102              		.loc 1 83 0
+ 103 0002 FFF7FEFF 		bl	CyEnterCriticalSection
+ 104              	.LVL2:
+  84:Generated_Source\PSoC4/DataInput.c ****     DataInput_Status_Aux_Ctrl &= (uint8)(~DataInput_STATUS_INTR_ENBL);
+ 105              		.loc 1 84 0
+ 106 0006 044A     		ldr	r2, .L8
+ 107 0008 1378     		ldrb	r3, [r2]
+ 108 000a 1021     		movs	r1, #16
+ 109 000c 8B43     		bics	r3, r1
+ 110 000e 1370     		strb	r3, [r2]
+  85:Generated_Source\PSoC4/DataInput.c ****     CyExitCriticalSection(interruptState);
+ 111              		.loc 1 85 0
+ 112 0010 FFF7FEFF 		bl	CyExitCriticalSection
+ 113              	.LVL3:
+  86:Generated_Source\PSoC4/DataInput.c **** }
+ 114              		.loc 1 86 0
+ 115              		@ sp needed
+ 116 0014 10BD     		pop	{r4, pc}
+ 117              	.L9:
+ 118 0016 C046     		.align	2
+ 119              	.L8:
+ 120 0018 93000F40 		.word	1074725011
+ 121              		.cfi_endproc
+ 122              	.LFE3:
+ 123              		.size	DataInput_InterruptDisable, .-DataInput_InterruptDisable
+ 124              		.section	.text.DataInput_WriteMask,"ax",%progbits
+ 125              		.align	2
+ 126              		.global	DataInput_WriteMask
+ 127              		.code	16
+ 128              		.thumb_func
+ 129              		.type	DataInput_WriteMask, %function
+ 130              	DataInput_WriteMask:
+ 131              	.LFB4:
+  87:Generated_Source\PSoC4/DataInput.c **** 
+  88:Generated_Source\PSoC4/DataInput.c **** 
+  89:Generated_Source\PSoC4/DataInput.c **** /*******************************************************************************
+  90:Generated_Source\PSoC4/DataInput.c **** * Function Name: DataInput_WriteMask
+  91:Generated_Source\PSoC4/DataInput.c **** ********************************************************************************
+  92:Generated_Source\PSoC4/DataInput.c **** *
+  93:Generated_Source\PSoC4/DataInput.c **** * Summary:
+  94:Generated_Source\PSoC4/DataInput.c **** *  Writes the current mask value assigned to the Status Register.
+  95:Generated_Source\PSoC4/DataInput.c **** *
+  96:Generated_Source\PSoC4/DataInput.c **** * Parameters:
+  97:Generated_Source\PSoC4/DataInput.c **** *  mask:  Value to write into the mask register.
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 5
+
+
+  98:Generated_Source\PSoC4/DataInput.c **** *
+  99:Generated_Source\PSoC4/DataInput.c **** * Return:
+ 100:Generated_Source\PSoC4/DataInput.c **** *  None.
+ 101:Generated_Source\PSoC4/DataInput.c **** *
+ 102:Generated_Source\PSoC4/DataInput.c **** *******************************************************************************/
+ 103:Generated_Source\PSoC4/DataInput.c **** void DataInput_WriteMask(uint8 mask) 
+ 104:Generated_Source\PSoC4/DataInput.c **** {
+ 132              		.loc 1 104 0
+ 133              		.cfi_startproc
+ 134              		@ args = 0, pretend = 0, frame = 0
+ 135              		@ frame_needed = 0, uses_anonymous_args = 0
+ 136              		@ link register save eliminated.
+ 137              	.LVL4:
+ 105:Generated_Source\PSoC4/DataInput.c ****     #if(DataInput_INPUTS < 8u)
+ 106:Generated_Source\PSoC4/DataInput.c ****     	mask &= ((uint8)(1u << DataInput_INPUTS) - 1u);
+ 107:Generated_Source\PSoC4/DataInput.c **** 	#endif /* End DataInput_INPUTS < 8u */
+ 108:Generated_Source\PSoC4/DataInput.c ****     DataInput_Status_Mask = mask;
+ 138              		.loc 1 108 0
+ 139 0000 014B     		ldr	r3, .L11
+ 140 0002 1870     		strb	r0, [r3]
+ 109:Generated_Source\PSoC4/DataInput.c **** }
+ 141              		.loc 1 109 0
+ 142              		@ sp needed
+ 143 0004 7047     		bx	lr
+ 144              	.L12:
+ 145 0006 C046     		.align	2
+ 146              	.L11:
+ 147 0008 83000F40 		.word	1074724995
+ 148              		.cfi_endproc
+ 149              	.LFE4:
+ 150              		.size	DataInput_WriteMask, .-DataInput_WriteMask
+ 151              		.section	.text.DataInput_ReadMask,"ax",%progbits
+ 152              		.align	2
+ 153              		.global	DataInput_ReadMask
+ 154              		.code	16
+ 155              		.thumb_func
+ 156              		.type	DataInput_ReadMask, %function
+ 157              	DataInput_ReadMask:
+ 158              	.LFB5:
+ 110:Generated_Source\PSoC4/DataInput.c **** 
+ 111:Generated_Source\PSoC4/DataInput.c **** 
+ 112:Generated_Source\PSoC4/DataInput.c **** /*******************************************************************************
+ 113:Generated_Source\PSoC4/DataInput.c **** * Function Name: DataInput_ReadMask
+ 114:Generated_Source\PSoC4/DataInput.c **** ********************************************************************************
+ 115:Generated_Source\PSoC4/DataInput.c **** *
+ 116:Generated_Source\PSoC4/DataInput.c **** * Summary:
+ 117:Generated_Source\PSoC4/DataInput.c **** *  Reads the current interrupt mask assigned to the Status Register.
+ 118:Generated_Source\PSoC4/DataInput.c **** *
+ 119:Generated_Source\PSoC4/DataInput.c **** * Parameters:
+ 120:Generated_Source\PSoC4/DataInput.c **** *  None.
+ 121:Generated_Source\PSoC4/DataInput.c **** *
+ 122:Generated_Source\PSoC4/DataInput.c **** * Return:
+ 123:Generated_Source\PSoC4/DataInput.c **** *  The value of the interrupt mask of the Status Register.
+ 124:Generated_Source\PSoC4/DataInput.c **** *
+ 125:Generated_Source\PSoC4/DataInput.c **** *******************************************************************************/
+ 126:Generated_Source\PSoC4/DataInput.c **** uint8 DataInput_ReadMask(void) 
+ 127:Generated_Source\PSoC4/DataInput.c **** {
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 6
+
+
+ 159              		.loc 1 127 0
+ 160              		.cfi_startproc
+ 161              		@ args = 0, pretend = 0, frame = 0
+ 162              		@ frame_needed = 0, uses_anonymous_args = 0
+ 163              		@ link register save eliminated.
+ 128:Generated_Source\PSoC4/DataInput.c ****     return DataInput_Status_Mask;
+ 164              		.loc 1 128 0
+ 165 0000 014B     		ldr	r3, .L14
+ 166 0002 1878     		ldrb	r0, [r3]
+ 167 0004 C0B2     		uxtb	r0, r0
+ 129:Generated_Source\PSoC4/DataInput.c **** }
+ 168              		.loc 1 129 0
+ 169              		@ sp needed
+ 170 0006 7047     		bx	lr
+ 171              	.L15:
+ 172              		.align	2
+ 173              	.L14:
+ 174 0008 83000F40 		.word	1074724995
+ 175              		.cfi_endproc
+ 176              	.LFE5:
+ 177              		.size	DataInput_ReadMask, .-DataInput_ReadMask
+ 178              		.text
+ 179              	.Letext0:
+ 180              		.file 2 "Generated_Source\\PSoC4\\cytypes.h"
+ 181              		.file 3 "Generated_Source\\PSoC4\\CyLib.h"
+ 182              		.section	.debug_info,"",%progbits
+ 183              	.Ldebug_info0:
+ 184 0000 79010000 		.4byte	0x179
+ 185 0004 0400     		.2byte	0x4
+ 186 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 187 000a 04       		.byte	0x4
+ 188 000b 01       		.uleb128 0x1
+ 189 000c 4F010000 		.4byte	.LASF24
+ 190 0010 0C       		.byte	0xc
+ 191 0011 25010000 		.4byte	.LASF25
+ 192 0015 C8000000 		.4byte	.LASF26
+ 193 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 194 001d 00000000 		.4byte	0
+ 195 0021 00000000 		.4byte	.Ldebug_line0
+ 196 0025 02       		.uleb128 0x2
+ 197 0026 01       		.byte	0x1
+ 198 0027 06       		.byte	0x6
+ 199 0028 F0010000 		.4byte	.LASF0
+ 200 002c 02       		.uleb128 0x2
+ 201 002d 01       		.byte	0x1
+ 202 002e 08       		.byte	0x8
+ 203 002f 09010000 		.4byte	.LASF1
+ 204 0033 02       		.uleb128 0x2
+ 205 0034 02       		.byte	0x2
+ 206 0035 05       		.byte	0x5
+ 207 0036 2D020000 		.4byte	.LASF2
+ 208 003a 02       		.uleb128 0x2
+ 209 003b 02       		.byte	0x2
+ 210 003c 07       		.byte	0x7
+ 211 003d DD010000 		.4byte	.LASF3
+ 212 0041 02       		.uleb128 0x2
+ 213 0042 04       		.byte	0x4
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 7
+
+
+ 214 0043 05       		.byte	0x5
+ 215 0044 1C010000 		.4byte	.LASF4
+ 216 0048 02       		.uleb128 0x2
+ 217 0049 04       		.byte	0x4
+ 218 004a 07       		.byte	0x7
+ 219 004b 66000000 		.4byte	.LASF5
+ 220 004f 02       		.uleb128 0x2
+ 221 0050 08       		.byte	0x8
+ 222 0051 05       		.byte	0x5
+ 223 0052 00000000 		.4byte	.LASF6
+ 224 0056 02       		.uleb128 0x2
+ 225 0057 08       		.byte	0x8
+ 226 0058 07       		.byte	0x7
+ 227 0059 78000000 		.4byte	.LASF7
+ 228 005d 03       		.uleb128 0x3
+ 229 005e 04       		.byte	0x4
+ 230 005f 05       		.byte	0x5
+ 231 0060 696E7400 		.ascii	"int\000"
+ 232 0064 02       		.uleb128 0x2
+ 233 0065 04       		.byte	0x4
+ 234 0066 07       		.byte	0x7
+ 235 0067 0E000000 		.4byte	.LASF8
+ 236 006b 04       		.uleb128 0x4
+ 237 006c 60000000 		.4byte	.LASF12
+ 238 0070 02       		.byte	0x2
+ 239 0071 E401     		.2byte	0x1e4
+ 240 0073 2C000000 		.4byte	0x2c
+ 241 0077 02       		.uleb128 0x2
+ 242 0078 04       		.byte	0x4
+ 243 0079 04       		.byte	0x4
+ 244 007a 8F000000 		.4byte	.LASF9
+ 245 007e 02       		.uleb128 0x2
+ 246 007f 08       		.byte	0x8
+ 247 0080 04       		.byte	0x4
+ 248 0081 48010000 		.4byte	.LASF10
+ 249 0085 02       		.uleb128 0x2
+ 250 0086 01       		.byte	0x1
+ 251 0087 08       		.byte	0x8
+ 252 0088 17010000 		.4byte	.LASF11
+ 253 008c 04       		.uleb128 0x4
+ 254 008d 37020000 		.4byte	.LASF13
+ 255 0091 02       		.byte	0x2
+ 256 0092 8E02     		.2byte	0x28e
+ 257 0094 98000000 		.4byte	0x98
+ 258 0098 05       		.uleb128 0x5
+ 259 0099 6B000000 		.4byte	0x6b
+ 260 009d 02       		.uleb128 0x2
+ 261 009e 08       		.byte	0x8
+ 262 009f 04       		.byte	0x4
+ 263 00a0 12020000 		.4byte	.LASF14
+ 264 00a4 02       		.uleb128 0x2
+ 265 00a5 04       		.byte	0x4
+ 266 00a6 07       		.byte	0x7
+ 267 00a7 3C020000 		.4byte	.LASF15
+ 268 00ab 06       		.uleb128 0x6
+ 269 00ac 1E020000 		.4byte	.LASF20
+ 270 00b0 01       		.byte	0x1
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 8
+
+
+ 271 00b1 25       		.byte	0x25
+ 272 00b2 6B000000 		.4byte	0x6b
+ 273 00b6 00000000 		.4byte	.LFB1
+ 274 00ba 0C000000 		.4byte	.LFE1-.LFB1
+ 275 00be 01       		.uleb128 0x1
+ 276 00bf 9C       		.byte	0x9c
+ 277 00c0 07       		.uleb128 0x7
+ 278 00c1 95000000 		.4byte	.LASF16
+ 279 00c5 01       		.byte	0x1
+ 280 00c6 39       		.byte	0x39
+ 281 00c7 00000000 		.4byte	.LFB2
+ 282 00cb 1C000000 		.4byte	.LFE2-.LFB2
+ 283 00cf 01       		.uleb128 0x1
+ 284 00d0 9C       		.byte	0x9c
+ 285 00d1 F7000000 		.4byte	0xf7
+ 286 00d5 08       		.uleb128 0x8
+ 287 00d6 45020000 		.4byte	.LASF18
+ 288 00da 01       		.byte	0x1
+ 289 00db 3B       		.byte	0x3b
+ 290 00dc 6B000000 		.4byte	0x6b
+ 291 00e0 00000000 		.4byte	.LLST0
+ 292 00e4 09       		.uleb128 0x9
+ 293 00e5 06000000 		.4byte	.LVL0
+ 294 00e9 66010000 		.4byte	0x166
+ 295 00ed 09       		.uleb128 0x9
+ 296 00ee 16000000 		.4byte	.LVL1
+ 297 00f2 71010000 		.4byte	0x171
+ 298 00f6 00       		.byte	0
+ 299 00f7 07       		.uleb128 0x7
+ 300 00f8 1B000000 		.4byte	.LASF17
+ 301 00fc 01       		.byte	0x1
+ 302 00fd 50       		.byte	0x50
+ 303 00fe 00000000 		.4byte	.LFB3
+ 304 0102 1C000000 		.4byte	.LFE3-.LFB3
+ 305 0106 01       		.uleb128 0x1
+ 306 0107 9C       		.byte	0x9c
+ 307 0108 2E010000 		.4byte	0x12e
+ 308 010c 08       		.uleb128 0x8
+ 309 010d 45020000 		.4byte	.LASF18
+ 310 0111 01       		.byte	0x1
+ 311 0112 52       		.byte	0x52
+ 312 0113 6B000000 		.4byte	0x6b
+ 313 0117 13000000 		.4byte	.LLST1
+ 314 011b 09       		.uleb128 0x9
+ 315 011c 06000000 		.4byte	.LVL2
+ 316 0120 66010000 		.4byte	0x166
+ 317 0124 09       		.uleb128 0x9
+ 318 0125 14000000 		.4byte	.LVL3
+ 319 0129 71010000 		.4byte	0x171
+ 320 012d 00       		.byte	0
+ 321 012e 07       		.uleb128 0x7
+ 322 012f AF000000 		.4byte	.LASF19
+ 323 0133 01       		.byte	0x1
+ 324 0134 67       		.byte	0x67
+ 325 0135 00000000 		.4byte	.LFB4
+ 326 0139 0C000000 		.4byte	.LFE4-.LFB4
+ 327 013d 01       		.uleb128 0x1
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 9
+
+
+ 328 013e 9C       		.byte	0x9c
+ 329 013f 51010000 		.4byte	0x151
+ 330 0143 0A       		.uleb128 0xa
+ 331 0144 C3000000 		.4byte	.LASF27
+ 332 0148 01       		.byte	0x1
+ 333 0149 67       		.byte	0x67
+ 334 014a 6B000000 		.4byte	0x6b
+ 335 014e 01       		.uleb128 0x1
+ 336 014f 50       		.byte	0x50
+ 337 0150 00       		.byte	0
+ 338 0151 06       		.uleb128 0x6
+ 339 0152 4D000000 		.4byte	.LASF21
+ 340 0156 01       		.byte	0x1
+ 341 0157 7E       		.byte	0x7e
+ 342 0158 6B000000 		.4byte	0x6b
+ 343 015c 00000000 		.4byte	.LFB5
+ 344 0160 0C000000 		.4byte	.LFE5-.LFB5
+ 345 0164 01       		.uleb128 0x1
+ 346 0165 9C       		.byte	0x9c
+ 347 0166 0B       		.uleb128 0xb
+ 348 0167 36000000 		.4byte	.LASF22
+ 349 016b 36000000 		.4byte	.LASF22
+ 350 016f 03       		.byte	0x3
+ 351 0170 E5       		.byte	0xe5
+ 352 0171 0B       		.uleb128 0xb
+ 353 0172 FC010000 		.4byte	.LASF23
+ 354 0176 FC010000 		.4byte	.LASF23
+ 355 017a 03       		.byte	0x3
+ 356 017b E6       		.byte	0xe6
+ 357 017c 00       		.byte	0
+ 358              		.section	.debug_abbrev,"",%progbits
+ 359              	.Ldebug_abbrev0:
+ 360 0000 01       		.uleb128 0x1
+ 361 0001 11       		.uleb128 0x11
+ 362 0002 01       		.byte	0x1
+ 363 0003 25       		.uleb128 0x25
+ 364 0004 0E       		.uleb128 0xe
+ 365 0005 13       		.uleb128 0x13
+ 366 0006 0B       		.uleb128 0xb
+ 367 0007 03       		.uleb128 0x3
+ 368 0008 0E       		.uleb128 0xe
+ 369 0009 1B       		.uleb128 0x1b
+ 370 000a 0E       		.uleb128 0xe
+ 371 000b 55       		.uleb128 0x55
+ 372 000c 17       		.uleb128 0x17
+ 373 000d 11       		.uleb128 0x11
+ 374 000e 01       		.uleb128 0x1
+ 375 000f 10       		.uleb128 0x10
+ 376 0010 17       		.uleb128 0x17
+ 377 0011 00       		.byte	0
+ 378 0012 00       		.byte	0
+ 379 0013 02       		.uleb128 0x2
+ 380 0014 24       		.uleb128 0x24
+ 381 0015 00       		.byte	0
+ 382 0016 0B       		.uleb128 0xb
+ 383 0017 0B       		.uleb128 0xb
+ 384 0018 3E       		.uleb128 0x3e
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 10
+
+
+ 385 0019 0B       		.uleb128 0xb
+ 386 001a 03       		.uleb128 0x3
+ 387 001b 0E       		.uleb128 0xe
+ 388 001c 00       		.byte	0
+ 389 001d 00       		.byte	0
+ 390 001e 03       		.uleb128 0x3
+ 391 001f 24       		.uleb128 0x24
+ 392 0020 00       		.byte	0
+ 393 0021 0B       		.uleb128 0xb
+ 394 0022 0B       		.uleb128 0xb
+ 395 0023 3E       		.uleb128 0x3e
+ 396 0024 0B       		.uleb128 0xb
+ 397 0025 03       		.uleb128 0x3
+ 398 0026 08       		.uleb128 0x8
+ 399 0027 00       		.byte	0
+ 400 0028 00       		.byte	0
+ 401 0029 04       		.uleb128 0x4
+ 402 002a 16       		.uleb128 0x16
+ 403 002b 00       		.byte	0
+ 404 002c 03       		.uleb128 0x3
+ 405 002d 0E       		.uleb128 0xe
+ 406 002e 3A       		.uleb128 0x3a
+ 407 002f 0B       		.uleb128 0xb
+ 408 0030 3B       		.uleb128 0x3b
+ 409 0031 05       		.uleb128 0x5
+ 410 0032 49       		.uleb128 0x49
+ 411 0033 13       		.uleb128 0x13
+ 412 0034 00       		.byte	0
+ 413 0035 00       		.byte	0
+ 414 0036 05       		.uleb128 0x5
+ 415 0037 35       		.uleb128 0x35
+ 416 0038 00       		.byte	0
+ 417 0039 49       		.uleb128 0x49
+ 418 003a 13       		.uleb128 0x13
+ 419 003b 00       		.byte	0
+ 420 003c 00       		.byte	0
+ 421 003d 06       		.uleb128 0x6
+ 422 003e 2E       		.uleb128 0x2e
+ 423 003f 00       		.byte	0
+ 424 0040 3F       		.uleb128 0x3f
+ 425 0041 19       		.uleb128 0x19
+ 426 0042 03       		.uleb128 0x3
+ 427 0043 0E       		.uleb128 0xe
+ 428 0044 3A       		.uleb128 0x3a
+ 429 0045 0B       		.uleb128 0xb
+ 430 0046 3B       		.uleb128 0x3b
+ 431 0047 0B       		.uleb128 0xb
+ 432 0048 27       		.uleb128 0x27
+ 433 0049 19       		.uleb128 0x19
+ 434 004a 49       		.uleb128 0x49
+ 435 004b 13       		.uleb128 0x13
+ 436 004c 11       		.uleb128 0x11
+ 437 004d 01       		.uleb128 0x1
+ 438 004e 12       		.uleb128 0x12
+ 439 004f 06       		.uleb128 0x6
+ 440 0050 40       		.uleb128 0x40
+ 441 0051 18       		.uleb128 0x18
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 11
+
+
+ 442 0052 9742     		.uleb128 0x2117
+ 443 0054 19       		.uleb128 0x19
+ 444 0055 00       		.byte	0
+ 445 0056 00       		.byte	0
+ 446 0057 07       		.uleb128 0x7
+ 447 0058 2E       		.uleb128 0x2e
+ 448 0059 01       		.byte	0x1
+ 449 005a 3F       		.uleb128 0x3f
+ 450 005b 19       		.uleb128 0x19
+ 451 005c 03       		.uleb128 0x3
+ 452 005d 0E       		.uleb128 0xe
+ 453 005e 3A       		.uleb128 0x3a
+ 454 005f 0B       		.uleb128 0xb
+ 455 0060 3B       		.uleb128 0x3b
+ 456 0061 0B       		.uleb128 0xb
+ 457 0062 27       		.uleb128 0x27
+ 458 0063 19       		.uleb128 0x19
+ 459 0064 11       		.uleb128 0x11
+ 460 0065 01       		.uleb128 0x1
+ 461 0066 12       		.uleb128 0x12
+ 462 0067 06       		.uleb128 0x6
+ 463 0068 40       		.uleb128 0x40
+ 464 0069 18       		.uleb128 0x18
+ 465 006a 9742     		.uleb128 0x2117
+ 466 006c 19       		.uleb128 0x19
+ 467 006d 01       		.uleb128 0x1
+ 468 006e 13       		.uleb128 0x13
+ 469 006f 00       		.byte	0
+ 470 0070 00       		.byte	0
+ 471 0071 08       		.uleb128 0x8
+ 472 0072 34       		.uleb128 0x34
+ 473 0073 00       		.byte	0
+ 474 0074 03       		.uleb128 0x3
+ 475 0075 0E       		.uleb128 0xe
+ 476 0076 3A       		.uleb128 0x3a
+ 477 0077 0B       		.uleb128 0xb
+ 478 0078 3B       		.uleb128 0x3b
+ 479 0079 0B       		.uleb128 0xb
+ 480 007a 49       		.uleb128 0x49
+ 481 007b 13       		.uleb128 0x13
+ 482 007c 02       		.uleb128 0x2
+ 483 007d 17       		.uleb128 0x17
+ 484 007e 00       		.byte	0
+ 485 007f 00       		.byte	0
+ 486 0080 09       		.uleb128 0x9
+ 487 0081 898201   		.uleb128 0x4109
+ 488 0084 00       		.byte	0
+ 489 0085 11       		.uleb128 0x11
+ 490 0086 01       		.uleb128 0x1
+ 491 0087 31       		.uleb128 0x31
+ 492 0088 13       		.uleb128 0x13
+ 493 0089 00       		.byte	0
+ 494 008a 00       		.byte	0
+ 495 008b 0A       		.uleb128 0xa
+ 496 008c 05       		.uleb128 0x5
+ 497 008d 00       		.byte	0
+ 498 008e 03       		.uleb128 0x3
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 12
+
+
+ 499 008f 0E       		.uleb128 0xe
+ 500 0090 3A       		.uleb128 0x3a
+ 501 0091 0B       		.uleb128 0xb
+ 502 0092 3B       		.uleb128 0x3b
+ 503 0093 0B       		.uleb128 0xb
+ 504 0094 49       		.uleb128 0x49
+ 505 0095 13       		.uleb128 0x13
+ 506 0096 02       		.uleb128 0x2
+ 507 0097 18       		.uleb128 0x18
+ 508 0098 00       		.byte	0
+ 509 0099 00       		.byte	0
+ 510 009a 0B       		.uleb128 0xb
+ 511 009b 2E       		.uleb128 0x2e
+ 512 009c 00       		.byte	0
+ 513 009d 3F       		.uleb128 0x3f
+ 514 009e 19       		.uleb128 0x19
+ 515 009f 3C       		.uleb128 0x3c
+ 516 00a0 19       		.uleb128 0x19
+ 517 00a1 6E       		.uleb128 0x6e
+ 518 00a2 0E       		.uleb128 0xe
+ 519 00a3 03       		.uleb128 0x3
+ 520 00a4 0E       		.uleb128 0xe
+ 521 00a5 3A       		.uleb128 0x3a
+ 522 00a6 0B       		.uleb128 0xb
+ 523 00a7 3B       		.uleb128 0x3b
+ 524 00a8 0B       		.uleb128 0xb
+ 525 00a9 00       		.byte	0
+ 526 00aa 00       		.byte	0
+ 527 00ab 00       		.byte	0
+ 528              		.section	.debug_loc,"",%progbits
+ 529              	.Ldebug_loc0:
+ 530              	.LLST0:
+ 531 0000 06000000 		.4byte	.LVL0
+ 532 0004 15000000 		.4byte	.LVL1-1
+ 533 0008 0100     		.2byte	0x1
+ 534 000a 50       		.byte	0x50
+ 535 000b 00000000 		.4byte	0
+ 536 000f 00000000 		.4byte	0
+ 537              	.LLST1:
+ 538 0013 06000000 		.4byte	.LVL2
+ 539 0017 13000000 		.4byte	.LVL3-1
+ 540 001b 0100     		.2byte	0x1
+ 541 001d 50       		.byte	0x50
+ 542 001e 00000000 		.4byte	0
+ 543 0022 00000000 		.4byte	0
+ 544              		.section	.debug_aranges,"",%progbits
+ 545 0000 3C000000 		.4byte	0x3c
+ 546 0004 0200     		.2byte	0x2
+ 547 0006 00000000 		.4byte	.Ldebug_info0
+ 548 000a 04       		.byte	0x4
+ 549 000b 00       		.byte	0
+ 550 000c 0000     		.2byte	0
+ 551 000e 0000     		.2byte	0
+ 552 0010 00000000 		.4byte	.LFB1
+ 553 0014 0C000000 		.4byte	.LFE1-.LFB1
+ 554 0018 00000000 		.4byte	.LFB2
+ 555 001c 1C000000 		.4byte	.LFE2-.LFB2
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 13
+
+
+ 556 0020 00000000 		.4byte	.LFB3
+ 557 0024 1C000000 		.4byte	.LFE3-.LFB3
+ 558 0028 00000000 		.4byte	.LFB4
+ 559 002c 0C000000 		.4byte	.LFE4-.LFB4
+ 560 0030 00000000 		.4byte	.LFB5
+ 561 0034 0C000000 		.4byte	.LFE5-.LFB5
+ 562 0038 00000000 		.4byte	0
+ 563 003c 00000000 		.4byte	0
+ 564              		.section	.debug_ranges,"",%progbits
+ 565              	.Ldebug_ranges0:
+ 566 0000 00000000 		.4byte	.LFB1
+ 567 0004 0C000000 		.4byte	.LFE1
+ 568 0008 00000000 		.4byte	.LFB2
+ 569 000c 1C000000 		.4byte	.LFE2
+ 570 0010 00000000 		.4byte	.LFB3
+ 571 0014 1C000000 		.4byte	.LFE3
+ 572 0018 00000000 		.4byte	.LFB4
+ 573 001c 0C000000 		.4byte	.LFE4
+ 574 0020 00000000 		.4byte	.LFB5
+ 575 0024 0C000000 		.4byte	.LFE5
+ 576 0028 00000000 		.4byte	0
+ 577 002c 00000000 		.4byte	0
+ 578              		.section	.debug_line,"",%progbits
+ 579              	.Ldebug_line0:
+ 580 0000 B3000000 		.section	.debug_str,"MS",%progbits,1
+ 580      02005100 
+ 580      00000201 
+ 580      FB0E0D00 
+ 580      01010101 
+ 581              	.LASF6:
+ 582 0000 6C6F6E67 		.ascii	"long long int\000"
+ 582      206C6F6E 
+ 582      6720696E 
+ 582      7400
+ 583              	.LASF8:
+ 584 000e 756E7369 		.ascii	"unsigned int\000"
+ 584      676E6564 
+ 584      20696E74 
+ 584      00
+ 585              	.LASF17:
+ 586 001b 44617461 		.ascii	"DataInput_InterruptDisable\000"
+ 586      496E7075 
+ 586      745F496E 
+ 586      74657272 
+ 586      75707444 
+ 587              	.LASF22:
+ 588 0036 4379456E 		.ascii	"CyEnterCriticalSection\000"
+ 588      74657243 
+ 588      72697469 
+ 588      63616C53 
+ 588      65637469 
+ 589              	.LASF21:
+ 590 004d 44617461 		.ascii	"DataInput_ReadMask\000"
+ 590      496E7075 
+ 590      745F5265 
+ 590      61644D61 
+ 590      736B00
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 14
+
+
+ 591              	.LASF12:
+ 592 0060 75696E74 		.ascii	"uint8\000"
+ 592      3800
+ 593              	.LASF5:
+ 594 0066 6C6F6E67 		.ascii	"long unsigned int\000"
+ 594      20756E73 
+ 594      69676E65 
+ 594      6420696E 
+ 594      7400
+ 595              	.LASF7:
+ 596 0078 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 596      206C6F6E 
+ 596      6720756E 
+ 596      7369676E 
+ 596      65642069 
+ 597              	.LASF9:
+ 598 008f 666C6F61 		.ascii	"float\000"
+ 598      7400
+ 599              	.LASF16:
+ 600 0095 44617461 		.ascii	"DataInput_InterruptEnable\000"
+ 600      496E7075 
+ 600      745F496E 
+ 600      74657272 
+ 600      75707445 
+ 601              	.LASF19:
+ 602 00af 44617461 		.ascii	"DataInput_WriteMask\000"
+ 602      496E7075 
+ 602      745F5772 
+ 602      6974654D 
+ 602      61736B00 
+ 603              	.LASF27:
+ 604 00c3 6D61736B 		.ascii	"mask\000"
+ 604      00
+ 605              	.LASF26:
+ 606 00c8 433A5C48 		.ascii	"C:\\HackingChips\\BabyFruits_Sound\\EPROM_Reader\\E"
+ 606      61636B69 
+ 606      6E674368 
+ 606      6970735C 
+ 606      42616279 
+ 607 00f7 50524F4D 		.ascii	"PROM_Reader.cydsn\000"
+ 607      5F526561 
+ 607      6465722E 
+ 607      63796473 
+ 607      6E00
+ 608              	.LASF1:
+ 609 0109 756E7369 		.ascii	"unsigned char\000"
+ 609      676E6564 
+ 609      20636861 
+ 609      7200
+ 610              	.LASF11:
+ 611 0117 63686172 		.ascii	"char\000"
+ 611      00
+ 612              	.LASF4:
+ 613 011c 6C6F6E67 		.ascii	"long int\000"
+ 613      20696E74 
+ 613      00
+ 614              	.LASF25:
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 15
+
+
+ 615 0125 47656E65 		.ascii	"Generated_Source\\PSoC4\\DataInput.c\000"
+ 615      72617465 
+ 615      645F536F 
+ 615      75726365 
+ 615      5C50536F 
+ 616              	.LASF10:
+ 617 0148 646F7562 		.ascii	"double\000"
+ 617      6C6500
+ 618              	.LASF24:
+ 619 014f 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 619      43313120 
+ 619      352E342E 
+ 619      31203230 
+ 619      31363036 
+ 620 0182 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 620      20726576 
+ 620      6973696F 
+ 620      6E203233 
+ 620      37373135 
+ 621 01b5 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 621      66756E63 
+ 621      74696F6E 
+ 621      2D736563 
+ 621      74696F6E 
+ 622              	.LASF3:
+ 623 01dd 73686F72 		.ascii	"short unsigned int\000"
+ 623      7420756E 
+ 623      7369676E 
+ 623      65642069 
+ 623      6E7400
+ 624              	.LASF0:
+ 625 01f0 7369676E 		.ascii	"signed char\000"
+ 625      65642063 
+ 625      68617200 
+ 626              	.LASF23:
+ 627 01fc 43794578 		.ascii	"CyExitCriticalSection\000"
+ 627      69744372 
+ 627      69746963 
+ 627      616C5365 
+ 627      6374696F 
+ 628              	.LASF14:
+ 629 0212 6C6F6E67 		.ascii	"long double\000"
+ 629      20646F75 
+ 629      626C6500 
+ 630              	.LASF20:
+ 631 021e 44617461 		.ascii	"DataInput_Read\000"
+ 631      496E7075 
+ 631      745F5265 
+ 631      616400
+ 632              	.LASF2:
+ 633 022d 73686F72 		.ascii	"short int\000"
+ 633      7420696E 
+ 633      7400
+ 634              	.LASF13:
+ 635 0237 72656738 		.ascii	"reg8\000"
+ 635      00
+ 636              	.LASF15:
+ARM GAS  C:\Users\Jesus\AppData\Local\Temp\cc7jahcS.s 			page 16
+
+
+ 637 023c 73697A65 		.ascii	"sizetype\000"
+ 637      74797065 
+ 637      00
+ 638              	.LASF18:
+ 639 0245 696E7465 		.ascii	"interruptState\000"
+ 639      72727570 
+ 639      74537461 
+ 639      746500
+ 640              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
