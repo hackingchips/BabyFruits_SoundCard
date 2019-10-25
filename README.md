@@ -11,6 +11,10 @@ Archivos:
 * Firmware (archivos)
 	* firmware.hex			Firmware en formato hexadecimal de Intel.
 	* firmware.bin  		Firmware en formato binario.
-        * firmware.asm  		Firmware en ensamblador.
+	* firmware.asm  		Firmware en ensamblador.
 	* firmware_A-comentado.odt	Firmware con algunos comentarios. Formato "open document" (Libre Office).
 	* IndicesASonidos.ods		Hoja de calculo en formato "open document" (Libre Office). Tabla con los sonidos.
+
+* Software
+	* Lector de eprom con placa PSoC.
+	* Secuenciador con Arduino.
