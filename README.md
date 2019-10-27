@@ -1,5 +1,7 @@
 ### Repository. ###
 Blog post:
+http://www.hackingchips.com/2019/10/circuito-de-sonido-de-tragaperras-anos.html
+http://www.hackingchips.com/2019/10/circuito-de-sonido-de-tragaperras-anos_26.html
 
 Archivos:
 
